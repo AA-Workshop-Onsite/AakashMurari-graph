@@ -150,5 +150,6 @@ type Review @key(fields: "id") {
 A Subscription for whenever a new review has been added.
 """
 type Subscription {
+  "My reviews"
   reviewAdded: Review
 }
